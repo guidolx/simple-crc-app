@@ -1,0 +1,64 @@
+/* Rectangle: */
+
+.crc-rectangle {
+  border: 1px solid #459B9D;
+  border-radius: 5px;
+}
+
+.crc-body-rectangle {
+  fill: transparent;
+  cursor: move;
+}
+
+/* Title: */
+
+.crc-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #192966;
+  text-transform: uppercase;
+}
+
+/* Body: */
+
+.crc-body {
+  font-family: 'Nunito-SemiBoldItalic', sans-serif;
+  font-size: 8px;
+  color: #192966;
+}
+
+.crc-item:active {
+  cursor: move;
+  opacity: 0.75;
+}
+
+.close-x {
+  stroke: #26262690;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.close-x-rectangle {
+  cursor:pointer;
+  fill: transparent;
+}
+
+.edit-rectangle{
+  cursor:pointer;
+  fill:transparent;
+}
+
+
+.crc-orange{
+  fill: #FDBA0B;
+}
+
+.crc-silver{
+  fill:#DADCDE;
+}
+
+.crc-yellow{
+  fill: #FCF176;
+}

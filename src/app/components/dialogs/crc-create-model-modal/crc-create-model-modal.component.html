@@ -1,0 +1,14 @@
+<crc-generic-dialog [title]="title" [display]="isModalOpen" (clickButton)="onClickButton($event)" [buttons]='buttons' focusId='crcModelName' (displayEvent)='onDisplayEvent($event)'>
+
+  <modal-body>
+    <form [formGroup]="form">
+      <div class="field">
+        <label class="label">Model Name</label>
+        <div class="control">
+          <input formControlName='crcModelName' class="input" type="text" placeholder="Model name is required and at least three characters long." name="crcModelName" id='crcModelName'>
+        </div>
+      </div>
+    </form>
+  </modal-body>
+
+</crc-generic-dialog>

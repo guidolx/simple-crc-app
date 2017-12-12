@@ -1,0 +1,15 @@
+<div class="container">
+  <header class="header">
+    <div class="crc-logo">
+      CRC Editor
+    </div>
+    <crc-toptoolbar (createCard)="onOpenModal()"></crc-toptoolbar>
+  </header>
+  <aside class="side-toolbar">
+    <crc-lefttoolbar></crc-lefttoolbar>
+  </aside>
+  <section class="main-content">
+    <crc-view-container></crc-view-container>
+  </section>
+  <crc-edit-modal></crc-edit-modal>
+</div>

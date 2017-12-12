@@ -1,0 +1,32 @@
+<svg:g class='crc-item' id="{{id}}" xmlns:svg="http://www.w3.org/2000/svg" attr.transform='translate({{item.posX}}  {{item.posY}})' >
+
+
+
+  <svg:g>
+    <svg:rect [ngClass]="cardClasses" stroke="#459B9D" stroke-width="1" x="0.5" y="0.5" width="249" [attr.height]="height" style='filter:url(#filter-1)'></svg:rect>
+    <path class="close-x" d="M 230,10 L 240,20 M 240,10 L 230,20" />
+    <svg:rect class='close-x-rectangle' x="230" y="10" width="10" height="10" (click)='deleteCard()'></svg:rect>
+  </svg:g>
+
+
+  <svg:text class="crc-title" fill="#192966" attr.x="{{titleX}}" attr.y="{{titleY}}">{{name}}</svg:text>
+
+  <svg:rect class='edit-rectangle' x="0.5" y="5" width="200" height="20" (click)='editCard()'></svg:rect>
+
+
+  <line x1="0"  y1="30" x2="250" y2="30" style="stroke:#006600;"/>
+
+  <line x1="125"  y1="30" x2="125" [attr.y2]="height" style="stroke:#006600;"/>
+
+  <svg:text *ngFor='let responsibility of responsibilitiesTspan' class="crc-body">
+    <tspan attr.x="{{responsibility.x}}" attr.y="{{responsibility.y}}">{{responsibility.t}}</tspan>
+  </svg:text>
+
+  <svg:text *ngFor='let collaborator of collaboratorsTspan' class="crc-body" >
+    <tspan attr.x="{{collaborator.x}}" attr.y="{{collaborator.y}}">{{collaborator.t}}</tspan>
+  </svg:text>
+
+  <svg:rect class='crc-body-rectangle' x="0.5" y="35" width="249" [attr.height]="bodyHeight" (mousedown)="mouseDown($event)" (mousemove)="move($event)" (mouseup)="endMove($event)" (mouseout)="endMove($event)" ></svg:rect>
+
+
+</svg:g>

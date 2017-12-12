@@ -1,0 +1,20 @@
+<crc-generic-dialog [title]="title" [display]="isModalOpen" (clickButton)="onClickButton($event)" [buttons]='buttons' focusId='tableId' (displayEvent)='onDisplayEvent($event)' (displayEvent)='onDisplayEvent($event)'>
+
+  <modal-body>
+    <form [formGroup]="form">
+      <input formControlName='selectedCrcModel' type="hidden" name="selectedCrcModel">
+    </form>
+    <div class="table-container">
+    <table class="table is-hoverable is-fullwidth is-striped" id='tableId'>
+      <tbody>
+        <tr *ngFor='let model of models' (click)='selectCrcModel(model.uuid)' [ngClass]="{'is-selected': isSelectedModel(model.uuid)}">
+          <td>
+            {{model.title}}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </modal-body>
+
+</crc-generic-dialog>

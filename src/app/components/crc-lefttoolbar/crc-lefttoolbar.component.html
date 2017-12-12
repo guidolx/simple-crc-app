@@ -1,0 +1,27 @@
+  <div class="btn">
+    <img src="./assets/add.svg" alt="add" aria-label="add" (click)="newModelClick()" />
+  </div>
+  <div class="btn">
+    <img src="./assets/folder-open.svg" alt="load" aria-label="load" (click)="openModelClick()" />
+  </div>
+  <div class="btn">
+    <img src="./assets/content-save.svg" alt="load" aria-label="save" (click)="saveModelClick()" />
+  </div>
+  <div class="btn">
+    <img src="./assets/file-download.svg" alt="download" aria-label="download" (click)='downloadModelClick()'/>
+  </div>
+  <div class="btn">
+    <img src="./assets/file-upload.svg" alt="upload" aria-label="upload" (click)='uploadModelClick()'/>
+  </div>
+  <div class="btn">
+    <img src="./assets/delete.svg" alt="delete" aria-label="delete" (click)='deleteModelClick()' />
+  </div>
+  <div class="hidden">
+    <a class='hidden--link' id='export-file'>download file</a>
+  </div>
+  <div class="hidden">
+    <input class='hidden--input' id='import-file' type="file" (change)='uploadFile()'>
+  </div>
+  <crc-create-model-modal></crc-create-model-modal>
+  <crc-open-model-modal></crc-open-model-modal>
+  <crc-delete-model-modal></crc-delete-model-modal>

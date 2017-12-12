@@ -1,0 +1,7 @@
+<crc-generic-dialog [title]="title" [display]="isModalOpen" (clickButton)="onClickButton($event)" [buttons]='buttons' (displayEvent)='onDisplayEvent($event)'>
+  <modal-body>
+      <div class="is-large-font">
+        Delete Model  '{{model?.title}}' ?
+      </div>
+  </modal-body>
+</crc-generic-dialog>

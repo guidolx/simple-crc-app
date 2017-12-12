@@ -1,0 +1,20 @@
+<div class="vr_header">
+    <div class="item">
+      <button class="button is-link" (click)="addCard()">NEW CRC CARD</button>
+    </div>
+    <div class="item">
+      <form [formGroup]='crcProperties'>
+        <div class="field">
+          <div class="control">
+            <div class="select">
+              <select formControlName='selectedSize' [value]='selectedSize' (change)="changeSize($event.target.value)">
+              <option [value]=i *ngFor="let i of sizes">
+                {{i}}
+              </option>
+            </select>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+<crc-generic-dialog [title]="title" [display]="isModalOpen" (clickButton)="onClickButton($event)" [buttons]='buttons' [focusId]='focusId' (displayEvent)='onDisplayEvent($event)'>
+
+  <modal-body>
+    <form [formGroup]="form">
+      <div class="field-container">
+        <div class="field">
+          <label class="label">Class Name</label>
+          <div class="control">
+            <input formControlName='crcName' maxlength="24" class="input uc" type="text" placeholder="Class name is required and at least three characters long." name="crcName" id='crcName' style="width:95%;">
+          </div>
+          <p>
+            &#160;
+            <span class="help is-danger-text" *ngIf="hasFieldError('crcName')">
+            {{errorMessage('crcName')}}
+          </span>
+          </p>
+        </div>
+        <div class='field'>
+          <label class="label">Object Type</label>
+          <label class="radio">
+          <input type="radio" name="crcType" formControlName='crcType' value="boundary">
+            Boundary object.
+          </label>
+          <label class="radio">
+            <input type="radio" name="crcType" formControlName='crcType' value="controller">
+            Controller object
+          </label>
+          <label class="radio">
+            <input type="radio" name="crcType" formControlName='crcType' value="entity">
+            Entity object
+          </label>
+        </div>
+      </div>
+      <div class="field-container">
+        <div class="field">
+          <label class="label">Responsibilities (1 per line)</label>
+          <div class="control">
+            <textarea maxlength="250" formControlName='crcResponsibilities' rows="8" class="textarea" name="crcResponsibilities"></textarea>
+          </div>
+          <p>
+            &#160;
+            <span class="help is-danger-text" *ngIf="hasFieldError('crcResponsibilities')">
+              {{errorMessage('crcResponsibilities')}}
+            </span>
+          </p>
+        </div>
+        <div class="field">
+          <label class="label">Collaborators (1 per line)</label>
+          <div class="control">
+            <textarea maxlength="250" formControlName='crcCollaborators' rows="8" class="textarea uc" name="crcCollaborators"></textarea>
+          </div>
+          <p style="width:100%">
+            &#160;
+            <span class="help is-danger-text" *ngIf="hasFieldError('crcCollaborators')">
+              {{errorMessage('crcCollaborators')}}
+            </span>
+          </p>
+        </div>
+      </div>
+    </form>
+  </modal-body>
+</crc-generic-dialog>

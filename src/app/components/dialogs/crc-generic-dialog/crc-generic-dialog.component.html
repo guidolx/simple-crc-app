@@ -1,0 +1,17 @@
+<div class="modal" [ngClass]="{'is-active': isModalOpen}">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">{{title}}</p>
+      <button class="delete" aria-label="close" (click)="emitClick('close')"></button>
+    </header>
+    <section class="modal-card-body">
+      <ng-content select="modal-body"></ng-content>
+    </section>
+    <footer class="modal-card-foot">
+      <div class="button-container">
+        <button *ngFor="let btn of buttons" (click)='emitClick(btn.id)' [disabled]='btn.disabled' class="button" [ngClass]='btn.classes'>{{btn.label}}</button>
+      </div>
+    </footer>
+  </div>
+</div>
