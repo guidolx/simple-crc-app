@@ -18,6 +18,18 @@ import { CrcDeleteModalComponent } from './components/dialogs/crc-delete-modal/c
 import { CrcDeleteModelModalComponent } from './components/dialogs/crc-delete-model-modal/crc-delete-model-modal.component';
 
 
+
+/**
+* The application module. CUSTOM_ELEMENTS_SCHEMA schema was added as there
+* were SVG tags.ReactiveFormsModule is imported. Three services were defined:
+* ConfigService which basically holds static properties which are needed throughout the app
+* maybe replaced later to allow dynamic configurable properties.
+* LocalStorageService is a wrapper around the localstorage object and is injected in the CardService.
+* The CardService manages the cards and models and is injected in many components.
+* The CardService has observables to allow loose coupling between components but still pass
+* information around.
+**/
+
 @NgModule({
   declarations: [
     AppComponent,

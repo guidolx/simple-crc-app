@@ -1,6 +1,6 @@
 import { UUID } from 'angular2-uuid';
 import { CRCItem } from '../model/crcitem';
-
+/** Represents a CRC Model which can have cards.**/
 class CRCModel {
 
   private _width: number;

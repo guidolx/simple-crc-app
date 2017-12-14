@@ -1,1 +1,2 @@
 # simple-crc-app
+TEST

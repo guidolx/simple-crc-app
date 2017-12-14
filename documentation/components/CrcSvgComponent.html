@@ -1,0 +1,2547 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>simple-crc-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">simple-crc-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">simple-crc-app documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcSvgComponent.html"  data-type="entity-link" class="active" >CrcSvgComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCItem.html" >CRCItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCModel.html" >CRCModel</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/CardService.html" >CardService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/Button.html" >Button</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">simple-crc-app documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcSvgComponent.html"  data-type="entity-link" class="active" >CrcSvgComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCItem.html" >CRCItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCModel.html" >CRCModel</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/CardService.html" >CardService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/Button.html" >Button</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CrcSvgComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/crc-svg/crc-svg.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>[crc-svg]</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>crc-svg.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./crc-svg.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="index">Index</h3>
+        <table class="table table-sm table-bordered index-table">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_bodyHeight">_bodyHeight</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_currentCX">_currentCX</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_currentCY">_currentCY</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_currentRX">_currentRX</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_currentRY">_currentRY</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_height">_height</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_titleX">_titleX</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_titleY">_titleY</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#clicked">clicked</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#clickX">clickX</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#clickY">clickY</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#lastMoveX">lastMoveX</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#lastMoveY">lastMoveY</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#deleteCard">deleteCard</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#editCard">editCard</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#endMove">endMove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#getCharWidth">getCharWidth</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isBoundary">isBoundary</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isController">isController</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isEntity">isEntity</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#makeTspans">makeTspans</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#mouseDown">mouseDown</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#move">move</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#item">item</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#actionEvent">actionEvent</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Accessors</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#titleX">titleX</a>
+                            </li>
+                            <li>
+                                <a href="#titleY">titleY</a>
+                            </li>
+                            <li>
+                                <a href="#posX">posX</a>
+                            </li>
+                            <li>
+                                <a href="#posY">posY</a>
+                            </li>
+                            <li>
+                                <a href="#name">name</a>
+                            </li>
+                            <li>
+                                <a href="#height">height</a>
+                            </li>
+                            <li>
+                                <a href="#bodyHeight">bodyHeight</a>
+                            </li>
+                            <li>
+                                <a href="#responsibilitiesTspan">responsibilitiesTspan</a>
+                            </li>
+                            <li>
+                                <a href="#collaboratorsTspan">collaboratorsTspan</a>
+                            </li>
+                            <li>
+                                <a href="#cardClasses">cardClasses</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor(elRef: <a href="https://angular.io/api/core/ElementRef" target="_blank">ElementRef</a>, configService: <a href="../injectables/ConfigService.html">ConfigService</a>)</code>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:36</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div>
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>elRef</td>
+                                                      <td>
+                                                                <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>configService</td>
+                                                      <td>
+                                                                <code><a href="../injectables/ConfigService.html" target="_self" >ConfigService</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="item"></a>
+                            <code>item</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+
+                              </p>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:26</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="outputs">Outputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="actionEvent"></a>
+                            <code>actionEvent</code>
+                        </td>
+                        <td class="col-md-10">
+                            <em><code>$event</code> type:</em>    <code><a href="../classes/ActionEvent.html" target="_self" >EventEmitter&lt;ActionEvent&gt;</a></code>
+
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:28</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="deleteCard"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                deleteCard
+                                </b>
+                                <a href="#deleteCard"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>deleteCard()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="123" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:123</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="editCard"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                editCard
+                                </b>
+                                <a href="#editCard"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>editCard()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="118" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:118</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="endMove"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                endMove
+                                </b>
+                                <a href="#endMove"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>endMove(event: MouseEvent)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="100" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:100</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>event</td>
+                                                      <td>
+                                                              <code>MouseEvent</code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="getCharWidth"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                getCharWidth
+                                </b>
+                                <a href="#getCharWidth"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>getCharWidth(s: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="187" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:187</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>s</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="isBoundary"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                isBoundary
+                                </b>
+                                <a href="#isBoundary"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>isBoundary()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="191" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:191</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="isController"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                isController
+                                </b>
+                                <a href="#isController"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>isController()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="195" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:195</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="isEntity"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                isEntity
+                                </b>
+                                <a href="#isEntity"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>isEntity()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="199" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:199</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="makeTspans"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                makeTspans
+                                </b>
+                                <a href="#makeTspans"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>makeTspans(items: Array<String>, offsetX: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="136" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:136</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>items</td>
+                                                      <td>
+                                                              <code>Array&lt;String&gt;</code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>offsetX</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>Array&lt;any&gt;</code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="mouseDown"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                mouseDown
+                                </b>
+                                <a href="#mouseDown"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>mouseDown(event: MouseEvent)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="106" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:106</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>event</td>
+                                                      <td>
+                                                              <code>MouseEvent</code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="move"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                move
+                                </b>
+                                <a href="#move"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>move(event: MouseEvent)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="93" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:93</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>event</td>
+                                                      <td>
+                                                              <code>MouseEvent</code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="ngOnInit"></a>
+                            <span class="name">
+                                <b>
+                                ngOnInit
+                                </b>
+                                <a href="#ngOnInit"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngOnInit()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:43</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_bodyHeight"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _bodyHeight
+                                </b>
+                                <a href="#_bodyHeight"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_bodyHeight:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:24</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_currentCX"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _currentCX
+                                </b>
+                                <a href="#_currentCX"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_currentCX:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:16</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_currentCY"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _currentCY
+                                </b>
+                                <a href="#_currentCY"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_currentCY:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:17</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_currentRX"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _currentRX
+                                </b>
+                                <a href="#_currentRX"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_currentRX:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:13</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_currentRY"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _currentRY
+                                </b>
+                                <a href="#_currentRY"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_currentRY:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:14</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_height"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _height
+                                </b>
+                                <a href="#_height"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_height:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:22</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_titleX"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _titleX
+                                </b>
+                                <a href="#_titleX"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_titleX:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>15</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:19</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_titleY"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _titleY
+                                </b>
+                                <a href="#_titleY"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_titleY:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>20</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:20</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="clicked"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                clicked
+                                </b>
+                                <a href="#clicked"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>clicked:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>false</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:30</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="clickX"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                clickX
+                                </b>
+                                <a href="#clickX"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>clickX:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:32</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="clickY"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                clickY
+                                </b>
+                                <a href="#clickY"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>clickY:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:33</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="lastMoveX"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                lastMoveX
+                                </b>
+                                <a href="#lastMoveX"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>lastMoveX:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:35</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="lastMoveY"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                lastMoveY
+                                </b>
+                                <a href="#lastMoveY"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>lastMoveY:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:36</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="accessors">
+            Accessors
+        </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="titleX"></a>
+                            <span class="name"><b>titleX</b><a href="#titleX"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>titleX()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:49</a></div>
+                                    </td>
+                                </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>titleX(x: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:53</a></div>
+                                    </td>
+                                </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="titleY"></a>
+                            <span class="name"><b>titleY</b><a href="#titleY"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>titleY()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:57</a></div>
+                                    </td>
+                                </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>titleY(y: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:61</a></div>
+                                    </td>
+                                </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="posX"></a>
+                            <span class="name"><b>posX</b><a href="#posX"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>posX()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:65</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="posY"></a>
+                            <span class="name"><b>posY</b><a href="#posY"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>posY()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:69</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="name"></a>
+                            <span class="name"><b>name</b><a href="#name"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>name()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:73</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="height"></a>
+                            <span class="name"><b>height</b><a href="#height"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>height()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="77" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:77</a></div>
+                                    </td>
+                                </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>height(h: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:85</a></div>
+                                    </td>
+                                </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="bodyHeight"></a>
+                            <span class="name"><b>bodyHeight</b><a href="#bodyHeight"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>bodyHeight()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:81</a></div>
+                                    </td>
+                                </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>bodyHeight(bh: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="89" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:89</a></div>
+                                    </td>
+                                </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="responsibilitiesTspan"></a>
+                            <span class="name"><b>responsibilitiesTspan</b><a href="#responsibilitiesTspan"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>responsibilitiesTspan()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="128" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:128</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="collaboratorsTspan"></a>
+                            <span class="name"><b>collaboratorsTspan</b><a href="#collaboratorsTspan"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>collaboratorsTspan()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="132" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:132</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="cardClasses"></a>
+                            <span class="name"><b>cardClasses</b><a href="#cardClasses"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>cardClasses()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="203" class="link-to-prism">src/app/components/crc-svg/crc-svg.component.ts:203</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Component, OnInit, Input, ElementRef, Output, EventEmitter } from &#x27;@angular/core&#x27;;
+import { CRCItem } from &quot;../../model/crcitem&quot;;
+import { ActionEvent } from &quot;../../shared/helpers/action-event&quot;;
+import { ConfigService } from &#x27;../../shared/config.service&#x27;;
+
+@Component({
+  selector: &#x27;[crc-svg]&#x27;,
+  templateUrl: &#x27;./crc-svg.component.html&#x27;,
+  styleUrls: [&#x27;./crc-svg.component.css&#x27;]
+})
+export class CrcSvgComponent implements OnInit {
+
+  private _currentRX: number &#x3D; 0;
+  private _currentRY: number &#x3D; 0;
+
+  private _currentCX: number &#x3D; 0;
+  private _currentCY: number &#x3D; 0;
+
+  private _titleX: number &#x3D; 15;
+  private _titleY: number &#x3D; 20;
+
+  private _height:number &#x3D; 0;
+
+  private _bodyHeight:number &#x3D; 0;
+
+  @Input() item: CRCItem;
+
+  @Output() actionEvent:EventEmitter&lt;ActionEvent&gt; &#x3D; new EventEmitter&lt;ActionEvent&gt;();
+
+  private clicked: boolean &#x3D; false;
+
+  private clickX: number &#x3D; 0;
+  private clickY: number &#x3D; 0;
+
+  private lastMoveX: number &#x3D; 0;
+  private lastMoveY: number &#x3D; 0;
+
+  constructor(private elRef: ElementRef,private configService:ConfigService) {
+    this._height &#x3D; configService.cardHeight;
+    this._bodyHeight &#x3D; configService.cardHeight - 35;
+  }
+
+  ngOnInit() {
+    this.lastMoveY &#x3D; this.posY;
+    this.lastMoveX &#x3D; this.posX;
+  }
+
+
+  public get titleX() {
+    return this._titleX;
+  }
+
+  public set titleX(x: number) {
+    this._titleX &#x3D; x;
+  }
+
+  public get titleY() {
+    return this._titleY;
+  }
+
+  public set titleY(y: number) {
+    this._titleY &#x3D; y;
+  }
+
+  public get posX(): number {
+    return this.item.posX;
+  }
+
+  public get posY(): number {
+    return this.item.posY;
+  }
+
+  public get name() {
+    return &#x60;${this.item.name}&#x60;;
+  }
+
+  public get height(){
+    return this._height;
+  }
+
+  public get bodyHeight(){
+    return this._bodyHeight;
+  }
+
+  public set height(h:number){
+    this._height &#x3D; h;
+  }
+
+  public set bodyHeight(bh:number){
+    this._bodyHeight &#x3D; bh;
+  }
+
+  public move(event: MouseEvent) {
+    if (this.clicked) {
+      this.item.posX &#x3D; this.lastMoveX + (event.clientX - this.clickX);
+      this.item.posY &#x3D; this.lastMoveY + (event.clientY - this.clickY);
+    }
+  }
+
+  public endMove(event: MouseEvent) {
+    this.clicked &#x3D; false;
+    this.lastMoveX &#x3D; this.item.posX;
+    this.lastMoveY &#x3D; this.item.posY;
+  }
+
+  public mouseDown(event: MouseEvent) {
+    this.clicked &#x3D; true;
+    this.clickX &#x3D; event.clientX;
+    this.clickY &#x3D; event.clientY;
+    // SVG 1.2 doesn&#x27;t support the z-index property.
+    // layout is based on document order
+    // hence I append the current clicked element to the parent
+    // will be the last element and be painted above the other elements.
+    this.elRef.nativeElement.parentElement.appendChild(this.elRef.nativeElement);
+  }
+
+
+  public editCard():void{
+    const a &#x3D; new ActionEvent(ActionEvent.ACTION_EDIT_CARD, this.item);
+    this.actionEvent.emit(a);
+  }
+
+  public deleteCard():void{
+    const a &#x3D; new ActionEvent(ActionEvent.ACTION_DELETE_CARD, this.item);
+    this.actionEvent.emit(a);
+  }
+
+  private get responsibilitiesTspan():Array&lt;any&gt; {
+    return this.makeTspans(this.item.responsibilities,this.configService.xOffsetCompartmentLeft);
+  }
+
+  private get collaboratorsTspan():Array&lt;any&gt; {
+    return this.makeTspans(this.item.collaborators,this.configService.xOffsetCompartmentRight);
+  }
+
+  private makeTspans(items:Array&lt;String&gt;, offsetX:number):Array&lt;any&gt;{
+    const maxChars &#x3D; 20;
+    const maxWidth &#x3D; this.configService.lineMaxWidth;
+    const lineHeight &#x3D; this.configService.lineHeight;
+    const wrapLineHeight &#x3D; this.configService.lineWrapHeight;
+    let currentX &#x3D; offsetX;
+    let currentY &#x3D; this.configService.yOffsetCompartment;
+    let tspans: Array&lt;any&gt; &#x3D; [];
+
+    // tspan &#x3D; {x:0,y:0,t:&#x27;text&#x27;,w:0}
+
+    if (items &#x3D;&#x3D; null || items.length &#x3D;&#x3D; 0) {
+      return tspans;
+    }
+    for (let index &#x3D; 0; index &lt; items.length; index++) {
+      let words &#x3D; items[index].split(/[\s]/);
+      let tspan &#x3D; { x: currentX, y: currentY, t: &#x27;• &#x27;, w: (this.configService.lowerCaseWidth * 2) };
+
+      for (let wordIndex &#x3D; 0; wordIndex &lt; words.length; wordIndex++) {
+        for ( let charIndex &#x3D; 0;charIndex &lt; words[wordIndex].length; charIndex++) {
+          let c:string &#x3D; words[wordIndex].charAt(charIndex);
+          let cw:number &#x3D; this.getCharWidth(c);
+          if (tspan.w + cw &gt;&#x3D; maxWidth ) {
+            if(tspan.t.charAt(tspan.t.length - 1) !&#x3D; &#x27; &#x27; &amp;&amp; charIndex &gt; 0 &amp;&amp; charIndex + 1 &lt; words[wordIndex].length){
+              tspan.t +&#x3D; &#x27;-&#x27;;
+            }
+            tspans.push(tspan);
+            currentY +&#x3D; wrapLineHeight;
+            tspan &#x3D; { x: currentX + 7, y: currentY, t: &#x27;&#x27;, w:0 };
+          }
+          tspan.w +&#x3D; cw;
+          tspan.t +&#x3D; c;
+        }
+        if(wordIndex + 1 &lt; words.length &amp;&amp; tspan.w &lt; maxWidth){
+          tspan.t +&#x3D; &#x27; &#x27;;
+          tspan.w +&#x3D; this.configService.lowerCaseWidth;
+        }
+      }
+      if (tspan.t.length &gt; 0){
+        tspans.push(tspan);
+      }
+      currentY +&#x3D; lineHeight;
+    }
+    if(currentY &gt; this.height){
+      this.height &#x3D; currentY;
+      this.bodyHeight &#x3D; this.height - 35;
+    }
+
+    return tspans;
+  }
+
+  private getCharWidth(s:string){
+    return s &#x3D;&#x3D;&#x3D; s.toUpperCase() ? this.configService.upperCaseWidth : this.configService.lowerCaseWidth;
+  }
+
+  public isBoundary():boolean{
+    return this.item.type &#x3D;&#x3D;&#x3D; CRCItem.BOUNDARY;
+  }
+
+  public isController():boolean {
+    return this.item.type &#x3D;&#x3D;&#x3D; CRCItem.CONTROLLER;
+  }
+
+  public isEntity():boolean {
+    return this.item.type &#x3D;&#x3D; null || this.item.type &#x3D;&#x3D; CRCItem.ENTITY;
+  }
+
+  public get cardClasses(){
+    return {&#x27;crc-rectangle&#x27;:true, &#x27;crc-orange&#x27;:this.isBoundary(), &#x27;crc-yellow&#x27;:this.isEntity(), &#x27;crc-silver&#x27;:this.isController()};
+  }
+
+
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;svg:g class&#x3D;&#x27;crc-item&#x27; id&#x3D;&quot;{{id}}&quot; xmlns:svg&#x3D;&quot;http://www.w3.org/2000/svg&quot; attr.transform&#x3D;&#x27;translate({{item.posX}}  {{item.posY}})&#x27; &gt;
+
+
+
+  &lt;svg:g&gt;
+    &lt;svg:rect [ngClass]&#x3D;&quot;cardClasses&quot; stroke&#x3D;&quot;#459B9D&quot; stroke-width&#x3D;&quot;1&quot; x&#x3D;&quot;0.5&quot; y&#x3D;&quot;0.5&quot; width&#x3D;&quot;249&quot; [attr.height]&#x3D;&quot;height&quot; style&#x3D;&#x27;filter:url(#filter-1)&#x27;&gt;&lt;/svg:rect&gt;
+    &lt;path class&#x3D;&quot;close-x&quot; d&#x3D;&quot;M 230,10 L 240,20 M 240,10 L 230,20&quot; /&gt;
+    &lt;svg:rect class&#x3D;&#x27;close-x-rectangle&#x27; x&#x3D;&quot;230&quot; y&#x3D;&quot;10&quot; width&#x3D;&quot;10&quot; height&#x3D;&quot;10&quot; (click)&#x3D;&#x27;deleteCard()&#x27;&gt;&lt;/svg:rect&gt;
+  &lt;/svg:g&gt;
+
+
+  &lt;svg:text class&#x3D;&quot;crc-title&quot; fill&#x3D;&quot;#192966&quot; attr.x&#x3D;&quot;{{titleX}}&quot; attr.y&#x3D;&quot;{{titleY}}&quot;&gt;{{name}}&lt;/svg:text&gt;
+
+  &lt;svg:rect class&#x3D;&#x27;edit-rectangle&#x27; x&#x3D;&quot;0.5&quot; y&#x3D;&quot;5&quot; width&#x3D;&quot;200&quot; height&#x3D;&quot;20&quot; (click)&#x3D;&#x27;editCard()&#x27;&gt;&lt;/svg:rect&gt;
+
+
+  &lt;line x1&#x3D;&quot;0&quot;  y1&#x3D;&quot;30&quot; x2&#x3D;&quot;250&quot; y2&#x3D;&quot;30&quot; style&#x3D;&quot;stroke:#006600;&quot;/&gt;
+
+  &lt;line x1&#x3D;&quot;125&quot;  y1&#x3D;&quot;30&quot; x2&#x3D;&quot;125&quot; [attr.y2]&#x3D;&quot;height&quot; style&#x3D;&quot;stroke:#006600;&quot;/&gt;
+
+  &lt;svg:text *ngFor&#x3D;&#x27;let responsibility of responsibilitiesTspan&#x27; class&#x3D;&quot;crc-body&quot;&gt;
+    &lt;tspan attr.x&#x3D;&quot;{{responsibility.x}}&quot; attr.y&#x3D;&quot;{{responsibility.y}}&quot;&gt;{{responsibility.t}}&lt;/tspan&gt;
+  &lt;/svg:text&gt;
+
+  &lt;svg:text *ngFor&#x3D;&#x27;let collaborator of collaboratorsTspan&#x27; class&#x3D;&quot;crc-body&quot; &gt;
+    &lt;tspan attr.x&#x3D;&quot;{{collaborator.x}}&quot; attr.y&#x3D;&quot;{{collaborator.y}}&quot;&gt;{{collaborator.t}}&lt;/tspan&gt;
+  &lt;/svg:text&gt;
+
+  &lt;svg:rect class&#x3D;&#x27;crc-body-rectangle&#x27; x&#x3D;&quot;0.5&quot; y&#x3D;&quot;35&quot; width&#x3D;&quot;249&quot; [attr.height]&#x3D;&quot;bodyHeight&quot; (mousedown)&#x3D;&quot;mouseDown($event)&quot; (mousemove)&#x3D;&quot;move($event)&quot; (mouseup)&#x3D;&quot;endMove($event)&quot; (mouseout)&#x3D;&quot;endMove($event)&quot; &gt;&lt;/svg:rect&gt;
+
+
+&lt;/svg:g&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><svg:g class=\'crc-item\' id="{{id}}" xmlns:svg="http://www.w3.org/2000/svg" attr.transform=\'translate({{item.posX}}  {{item.posY}})\' >  <svg:g>    <svg:rect [ngClass]="cardClasses" stroke="#459B9D" stroke-width="1" x="0.5" y="0.5" width="249" [attr.height]="height" style=\'filter:url(#filter-1)\'></svg:rect>    <path class="close-x" d="M 230,10 L 240,20 M 240,10 L 230,20" />    <svg:rect class=\'close-x-rectangle\' x="230" y="10" width="10" height="10" (click)=\'deleteCard()\'></svg:rect>  </svg:g>  <svg:text class="crc-title" fill="#192966" attr.x="{{titleX}}" attr.y="{{titleY}}">{{name}}</svg:text>  <svg:rect class=\'edit-rectangle\' x="0.5" y="5" width="200" height="20" (click)=\'editCard()\'></svg:rect>  <line x1="0"  y1="30" x2="250" y2="30" style="stroke:#006600;"/>  <line x1="125"  y1="30" x2="125" [attr.y2]="height" style="stroke:#006600;"/>  <svg:text *ngFor=\'let responsibility of responsibilitiesTspan\' class="crc-body">    <tspan attr.x="{{responsibility.x}}" attr.y="{{responsibility.y}}">{{responsibility.t}}</tspan>  </svg:text>  <svg:text *ngFor=\'let collaborator of collaboratorsTspan\' class="crc-body" >    <tspan attr.x="{{collaborator.x}}" attr.y="{{collaborator.y}}">{{collaborator.t}}</tspan>  </svg:text>  <svg:rect class=\'crc-body-rectangle\' x="0.5" y="35" width="249" [attr.height]="bodyHeight" (mousedown)="mouseDown($event)" (mousemove)="move($event)" (mouseup)="endMove($event)" (mouseout)="endMove($event)" ></svg:rect></svg:g></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CrcCreateModelModalComponent', 'selector': 'crc-create-model-modal'},{'name': 'CrcDeleteModalComponent', 'selector': 'crc-delete-modal'},{'name': 'CrcDeleteModelModalComponent', 'selector': 'crc-delete-model-modal'},{'name': 'CrcEditModalComponent', 'selector': 'crc-edit-modal'},{'name': 'CrcGenericDialogComponent', 'selector': 'crc-generic-dialog'},{'name': 'CrcLefttoolbarComponent', 'selector': 'crc-lefttoolbar'},{'name': 'CrcOpenModelModalComponent', 'selector': 'crc-open-model-modal'},{'name': 'CrcSvgComponent', 'selector': '[crc-svg]'},{'name': 'CrcToptoolbarComponent', 'selector': 'crc-toptoolbar'},{'name': 'CrcViewContainerComponent', 'selector': 'crc-view-container'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CrcSvgComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

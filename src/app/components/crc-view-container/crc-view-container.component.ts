@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, ViewEncapsulation, ViewChild } from '@ang
 import { CardService } from '../../shared/card.service';
 import { CRCItem } from '../../model/crcitem';
 import { CRCModel } from '../../model/crcmodel';
-import { ActionEvent } from '../../model/actionevent';
+import { ActionEvent } from '../../shared/helpers/action-event';
 import { Subscription } from 'rxjs/Subscription';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Observable } from 'rxjs/Observable';
