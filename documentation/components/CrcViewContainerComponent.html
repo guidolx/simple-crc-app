@@ -1,0 +1,1839 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>simple-crc-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">simple-crc-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">simple-crc-app documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcViewContainerComponent.html"  data-type="entity-link" class="active" >CrcViewContainerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCItem.html" >CRCItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCModel.html" >CRCModel</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/CardService.html" >CardService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/Button.html" >Button</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">simple-crc-app documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcViewContainerComponent.html"  data-type="entity-link" class="active" >CrcViewContainerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCItem.html" >CRCItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCModel.html" >CRCModel</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/CardService.html" >CardService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/Button.html" >Button</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CrcViewContainerComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/crc-view-container/crc-view-container.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>crc-view-container</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>crc-view-container.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./crc-view-container.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="index">Index</h3>
+        <table class="table table-sm table-bordered index-table">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_crcItems">_crcItems</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_height">_height</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_itemStateEvent">_itemStateEvent</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_itemSubscription">_itemSubscription</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_model">_model</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_width">_width</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#DEFAULT_HEIGHT">DEFAULT_HEIGHT</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#DEFAULT_WIDTH">DEFAULT_WIDTH</a>
+                            </li>
+                            <li>
+                                <a href="#deleteModal">deleteModal</a>
+                            </li>
+                            <li>
+                                <a href="#editModal">editModal</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#deleteCard">deleteCard</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#editCard">editCard</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestroy">ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#processActionEvent">processActionEvent</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#processItems">processItems</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#setTitle">setTitle</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Accessors</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#observableItems">observableItems</a>
+                            </li>
+                            <li>
+                                <a href="#width">width</a>
+                            </li>
+                            <li>
+                                <a href="#height">height</a>
+                            </li>
+                            <li>
+                                <a href="#title">title</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor(cardService: <a href="../injectables/CardService.html">CardService</a>)</code>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:38</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div>
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>cardService</td>
+                                                      <td>
+                                                                <code><a href="../injectables/CardService.html" target="_self" >CardService</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+
+
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="deleteCard"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                deleteCard
+                                </b>
+                                <a href="#deleteCard"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>deleteCard(item: <a href="../classes/CRCItem.html">CRCItem</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="100" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:100</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>item</td>
+                                                      <td>
+                                                              <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="editCard"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                editCard
+                                </b>
+                                <a href="#editCard"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>editCard(item: <a href="../classes/CRCItem.html">CRCItem</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="105" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:105</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>item</td>
+                                                      <td>
+                                                              <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="ngOnDestroy"></a>
+                            <span class="name">
+                                <b>
+                                ngOnDestroy
+                                </b>
+                                <a href="#ngOnDestroy"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngOnDestroy()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:54</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="ngOnInit"></a>
+                            <span class="name">
+                                <b>
+                                ngOnInit
+                                </b>
+                                <a href="#ngOnInit"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngOnInit()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:43</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="processActionEvent"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                processActionEvent
+                                </b>
+                                <a href="#processActionEvent"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>processActionEvent(event: <a href="../classes/ActionEvent.html">ActionEvent</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:67</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>event</td>
+                                                      <td>
+                                                              <code><a href="../classes/ActionEvent.html" target="_self" >ActionEvent</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="processItems"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                processItems
+                                </b>
+                                <a href="#processItems"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>processItems(items: <a href="../classes/CRCItem.html">Array<CRCItem></a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:62</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>items</td>
+                                                      <td>
+                                                              <code><a href="../classes/CRCItem.html" target="_self" >Array&lt;CRCItem&gt;</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="setTitle"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                setTitle
+                                </b>
+                                <a href="#setTitle"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>setTitle(title: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="96" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:96</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>title</td>
+                                                      <td>
+                                                              <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_crcItems"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _crcItems
+                                </b>
+                                <a href="#_crcItems"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_crcItems:     <code><a href="../classes/CRCItem.html" target="_self" >Array&lt;CRCItem&gt;</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../classes/CRCItem.html" target="_self" >Array&lt;CRCItem&gt;</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>[]</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:30</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_height"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _height
+                                </b>
+                                <a href="#_height"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_height:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:38</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_itemStateEvent"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _itemStateEvent
+                                </b>
+                                <a href="#_itemStateEvent"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_itemStateEvent:     <code><a href="../classes/CRCItem.html" target="_self" >BehaviorSubject&lt;Array&lt;CRCItem&gt;&gt;</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../classes/CRCItem.html" target="_self" >BehaviorSubject&lt;Array&lt;CRCItem&gt;&gt;</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>new BehaviorSubject(this._crcItems)</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:34</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_itemSubscription"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _itemSubscription
+                                </b>
+                                <a href="#_itemSubscription"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_itemSubscription:     <code>Subscription</code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code>Subscription</code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:32</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_model"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _model
+                                </b>
+                                <a href="#_model"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_model:     <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>new CRCModel()</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:28</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_width"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _width
+                                </b>
+                                <a href="#_width"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_width:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>0</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:36</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="DEFAULT_HEIGHT"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                DEFAULT_HEIGHT
+                                </b>
+                                <a href="#DEFAULT_HEIGHT"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>DEFAULT_HEIGHT:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>600</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:26</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="DEFAULT_WIDTH"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                DEFAULT_WIDTH
+                                </b>
+                                <a href="#DEFAULT_WIDTH"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>DEFAULT_WIDTH:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value : </i><code>800</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:24</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="deleteModal"></a>
+                            <span class="name">
+                                <b>
+                                deleteModal
+                                </b>
+                                <a href="#deleteModal"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>deleteModal:     <code><a href="../components/CrcDeleteModalComponent.html" target="_self" >CrcDeleteModalComponent</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../components/CrcDeleteModalComponent.html" target="_self" >CrcDeleteModalComponent</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:20</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="editModal"></a>
+                            <span class="name">
+                                <b>
+                                editModal
+                                </b>
+                                <a href="#editModal"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>editModal:     <code><a href="../components/CrcEditModalComponent.html" target="_self" >CrcEditModalComponent</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="../components/CrcEditModalComponent.html" target="_self" >CrcEditModalComponent</a></code>
+    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:22</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="accessors">
+            Accessors
+        </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="observableItems"></a>
+                            <span class="name"><b>observableItems</b><a href="#observableItems"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>observableItems()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:58</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="width"></a>
+                            <span class="name"><b>width</b><a href="#width"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>width()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="81" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:81</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="height"></a>
+                            <span class="name"><b>height</b><a href="#height"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>height()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:85</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="title"></a>
+                            <span class="name"><b>title</b><a href="#title"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>title()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="89" class="link-to-prism">src/app/components/crc-view-container/crc-view-container.component.ts:89</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Component, OnInit, OnDestroy, ViewEncapsulation, ViewChild } from &#x27;@angular/core&#x27;;
+import { CardService } from &#x27;../../shared/card.service&#x27;;
+import { CRCItem } from &#x27;../../model/crcitem&#x27;;
+import { CRCModel } from &#x27;../../model/crcmodel&#x27;;
+import { ActionEvent } from &#x27;../../shared/helpers/action-event&#x27;;
+import { Subscription } from &#x27;rxjs/Subscription&#x27;;
+import { BehaviorSubject } from &#x27;rxjs/BehaviorSubject&#x27;;
+import { Observable } from &#x27;rxjs/Observable&#x27;;
+import { CrcDeleteModalComponent } from &#x27;../../components/dialogs/crc-delete-modal/crc-delete-modal.component&#x27;;
+import { CrcEditModalComponent } from &#x27;../../components/dialogs/crc-edit-modal/crc-edit-modal.component&#x27;;
+
+
+@Component({
+  selector: &#x27;crc-view-container&#x27;,
+  templateUrl: &#x27;./crc-view-container.component.html&#x27;,
+  styleUrls: [&#x27;./crc-view-container.component.css&#x27;]
+})
+export class CrcViewContainerComponent implements OnInit, OnDestroy {
+
+  @ViewChild(CrcDeleteModalComponent) deleteModal: CrcDeleteModalComponent;
+
+  @ViewChild(CrcEditModalComponent) editModal: CrcEditModalComponent;
+
+  private DEFAULT_WIDTH: number &#x3D; 800;
+
+  private DEFAULT_HEIGHT: number &#x3D; 600;
+
+  private _model: CRCModel &#x3D; new CRCModel();
+
+  private _crcItems: Array&lt;CRCItem&gt; &#x3D; [];
+
+  private _itemSubscription: Subscription;
+
+  private _itemStateEvent: BehaviorSubject&lt;Array&lt;CRCItem&gt;&gt; &#x3D; new BehaviorSubject(this._crcItems);
+
+  private _width: number &#x3D; 0;
+
+  private _height: number &#x3D; 0;
+
+  constructor(private cardService: CardService) {
+  }
+
+  ngOnInit(): void {
+    this._itemSubscription &#x3D; this.cardService.getObservableItems().subscribe(
+      (model) &#x3D;&gt; {
+        this.processItems(model.items);
+        this._width &#x3D; model.width;
+        this._height &#x3D; model.height;
+        this._model &#x3D; model;
+      }
+    );
+  }
+
+  ngOnDestroy(): void {
+    this._itemSubscription.unsubscribe();
+  }
+
+  public get observableItems(): Observable&lt;Array&lt;CRCItem&gt;&gt; {
+    return this._itemStateEvent.asObservable();
+  }
+
+  private processItems(items: Array&lt;CRCItem&gt;): void {
+    this._crcItems &#x3D; items;
+    this._itemStateEvent.next(this._crcItems);
+  }
+
+  public processActionEvent(event: ActionEvent) {
+
+    switch (event.type) {
+      case ActionEvent.ACTION_EDIT_CARD:
+        this.editCard(event.payload);
+        break;
+      case ActionEvent.ACTION_DELETE_CARD:
+        this.deleteCard(event.payload);
+        break;
+      default:
+
+    }
+  }
+
+  public get width() {
+    return this._width || this.DEFAULT_WIDTH;
+  }
+
+  public get height() {
+    return this._height || this.DEFAULT_HEIGHT;
+  }
+
+  public get title() {
+    if(this._model.title &#x3D;&#x3D; undefined){
+      return &#x27;My CRC Model&#x27;;
+    }
+    return this._model.title;
+  }
+
+  public setTitle(title:string){
+    this._model.title &#x3D; title;
+  }
+
+  private deleteCard(item: CRCItem): void {
+    this.deleteModal.item &#x3D; item;
+    this.deleteModal.isModalOpen &#x3D; true;
+  }
+
+  private editCard(item: CRCItem): void {
+    this.editModal.item &#x3D; item;
+    this.editModal.isModalOpen &#x3D; true;
+  }
+
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;field&quot;&gt;
+  &lt;div class&#x3D;&quot;control control-remove-margin-top&quot;&gt;
+    &lt;input [value]&#x3D;&#x27;title&#x27; class&#x3D;&quot;input is-success filter-form-text is-uppercase&quot; maxlength&#x3D;&quot;64&quot; (input)&#x3D;&quot;setTitle($event.target.value)&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;Model Title&quot;&gt;
+    &lt;i class&#x3D;&quot;bar&quot;&gt;&lt;/i&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;svg-container&quot;&gt;
+  &lt;svg [attr.width]&#x3D;&quot;width&quot; [attr.height]&#x3D;&quot;height&quot; class&#x3D;&quot;svg&quot;&gt;
+    &lt;defs&gt;
+        &lt;filter x&#x3D;&quot;-3.4%&quot; y&#x3D;&quot;-4.2%&quot; width&#x3D;&quot;108.4%&quot; height&#x3D;&quot;111.7%&quot; filterUnits&#x3D;&quot;objectBoundingBox&quot; id&#x3D;&quot;filter-1&quot;&gt;
+            &lt;feDropShadow dx&#x3D;&quot;0&quot; dy&#x3D;&quot;0&quot; stdDeviation&#x3D;&quot;2&quot;/&gt;
+        &lt;/filter&gt;
+    &lt;/defs&gt;
+    &lt;rect width&#x3D;&quot;100%&quot; height&#x3D;&quot;100%&quot; fill&#x3D;&quot;white&quot; /&gt;
+      &lt;g crc-svg *ngFor&#x3D;&quot;let item of observableItems | async &quot; [item]&#x3D;&quot;item&quot; (actionEvent)&#x3D;&#x27;processActionEvent($event)&#x27;&gt;&lt;/g&gt;
+  &lt;/svg&gt;
+&lt;/div&gt;
+&lt;crc-delete-modal&gt;&lt;/crc-delete-modal&gt;
+&lt;crc-edit-modal&gt;&lt;/crc-edit-modal&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="field">  <div class="control control-remove-margin-top">    <input [value]=\'title\' class="input is-success filter-form-text is-uppercase" maxlength="64" (input)="setTitle($event.target.value)" type="text" placeholder="Model Title">    <i class="bar"></i>  </div></div><div class="svg-container">  <svg [attr.width]="width" [attr.height]="height" class="svg">    <defs>        <filter x="-3.4%" y="-4.2%" width="108.4%" height="111.7%" filterUnits="objectBoundingBox" id="filter-1">            <feDropShadow dx="0" dy="0" stdDeviation="2"/>        </filter>    </defs>    <rect width="100%" height="100%" fill="white" />      <g crc-svg *ngFor="let item of observableItems | async " [item]="item" (actionEvent)=\'processActionEvent($event)\'></g>  </svg></div><crc-delete-modal></crc-delete-modal><crc-edit-modal></crc-edit-modal></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CrcCreateModelModalComponent', 'selector': 'crc-create-model-modal'},{'name': 'CrcDeleteModalComponent', 'selector': 'crc-delete-modal'},{'name': 'CrcDeleteModelModalComponent', 'selector': 'crc-delete-model-modal'},{'name': 'CrcEditModalComponent', 'selector': 'crc-edit-modal'},{'name': 'CrcGenericDialogComponent', 'selector': 'crc-generic-dialog'},{'name': 'CrcLefttoolbarComponent', 'selector': 'crc-lefttoolbar'},{'name': 'CrcOpenModelModalComponent', 'selector': 'crc-open-model-modal'},{'name': 'CrcSvgComponent', 'selector': '[crc-svg]'},{'name': 'CrcToptoolbarComponent', 'selector': 'crc-toptoolbar'},{'name': 'CrcViewContainerComponent', 'selector': 'crc-view-container'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CrcViewContainerComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

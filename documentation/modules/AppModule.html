@@ -1,0 +1,915 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>simple-crc-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">simple-crc-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">simple-crc-app documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html"  data-type="entity-link" class="active" >AppModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCItem.html" >CRCItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCModel.html" >CRCModel</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/CardService.html" >CardService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/Button.html" >Button</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">simple-crc-app documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html"  data-type="entity-link" class="active" >AppModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCItem.html" >CRCItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCModel.html" >CRCModel</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/CardService.html" >CardService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/Button.html" >Button</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content module">
+                   <div class="content-data">
+
+
+
+<ol class="breadcrumb">
+  <li>Modules</li>
+  <li>AppModule</li>
+</ol>
+
+      <div class="text-center module-graph-container">
+          <div id="module-graph-svg">
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="2622pt" height="284pt"
+ viewBox="0.00 0.00 2622.00 284.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 280)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-280 2618,-280 2618,4 -4,4"/>
+<text text-anchor="start" x="1286.0091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="1073,-10 1073,-30 1093,-30 1093,-10 1073,-10"/>
+<text text-anchor="start" x="1096.629" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="1186,-10 1186,-30 1206,-30 1206,-10 1186,-10"/>
+<text text-anchor="start" x="1209.7251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="1272,-10 1272,-30 1292,-30 1292,-10 1272,-10"/>
+<text text-anchor="start" x="1295.7812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="1369,-10 1369,-30 1389,-30 1389,-10 1369,-10"/>
+<text text-anchor="start" x="1392.6732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="1465,-10 1465,-30 1485,-30 1485,-10 1465,-10"/>
+<text text-anchor="start" x="1488.7258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_AppModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-268 2606,-268 2606,-70 8,-70"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_AppModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="510,-78 510,-130 2598,-130 2598,-78 510,-78"/>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_AppModule_bootstrap</title>
+<polygon fill="none" stroke="#000000" points="1315,-208 1315,-260 1439,-260 1439,-208 1315,-208"/>
+</g>
+<g id="clust17" class="cluster">
+<title>cluster_AppModule_providers</title>
+<polygon fill="none" stroke="#000000" points="16,-78 16,-130 502,-130 502,-78 16,-78"/>
+</g>
+<!-- AppComponent -->
+<g id="node1" class="node">
+<title>AppComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2589.9399,-122 2484.0601,-122 2484.0601,-86 2589.9399,-86 2589.9399,-122"/>
+<text text-anchor="middle" x="2537" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent</text>
+</g>
+<!-- AppModule -->
+<g id="node12" class="node">
+<title>AppModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="1418.6571,-187 1415.6571,-191 1394.6571,-191 1391.6571,-187 1335.3429,-187 1335.3429,-151 1418.6571,-151 1418.6571,-187"/>
+<text text-anchor="middle" x="1377" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppModule</text>
+</g>
+<!-- AppComponent&#45;&gt;AppModule -->
+<g id="edge1" class="edge">
+<title>AppComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M2537,-122.0908C2537,-145.1328 2537,-182 2537,-182 2537,-182 1428.9703,-182 1428.9703,-182"/>
+<polygon fill="#000000" stroke="#000000" points="1428.9704,-178.5001 1418.9703,-182 1428.9703,-185.5001 1428.9704,-178.5001"/>
+</g>
+<!-- CrcViewContainerComponent -->
+<g id="node2" class="node">
+<title>CrcViewContainerComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2466.5702,-122 2279.4298,-122 2279.4298,-86 2466.5702,-86 2466.5702,-122"/>
+<text text-anchor="middle" x="2373" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcViewContainerComponent</text>
+</g>
+<!-- CrcViewContainerComponent&#45;&gt;AppModule -->
+<g id="edge2" class="edge">
+<title>CrcViewContainerComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M2373,-122.0449C2373,-143.6623 2373,-177 2373,-177 2373,-177 1428.8442,-177 1428.8442,-177"/>
+<polygon fill="#000000" stroke="#000000" points="1428.8443,-173.5001 1418.8442,-177 1428.8442,-180.5001 1428.8443,-173.5001"/>
+</g>
+<!-- CrcEditModalComponent -->
+<g id="node3" class="node">
+<title>CrcEditModalComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2261.9284,-122 2100.0716,-122 2100.0716,-86 2261.9284,-86 2261.9284,-122"/>
+<text text-anchor="middle" x="2181" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcEditModalComponent</text>
+</g>
+<!-- CrcEditModalComponent&#45;&gt;AppModule -->
+<g id="edge3" class="edge">
+<title>CrcEditModalComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M2181,-122.2228C2181,-142.3652 2181,-172 2181,-172 2181,-172 1428.8136,-172 1428.8136,-172"/>
+<polygon fill="#000000" stroke="#000000" points="1428.8136,-168.5001 1418.8136,-172 1428.8136,-175.5001 1428.8136,-168.5001"/>
+</g>
+<!-- CrcSvgComponent -->
+<g id="node4" class="node">
+<title>CrcSvgComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="2082.8272,-122 1959.1728,-122 1959.1728,-86 2082.8272,-86 2082.8272,-122"/>
+<text text-anchor="middle" x="2021" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcSvgComponent</text>
+</g>
+<!-- CrcSvgComponent&#45;&gt;AppModule -->
+<g id="edge4" class="edge">
+<title>CrcSvgComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M2021,-122.2222C2021,-140.8285 2021,-167 2021,-167 2021,-167 1428.7584,-167 1428.7584,-167"/>
+<polygon fill="#000000" stroke="#000000" points="1428.7585,-163.5001 1418.7584,-167 1428.7584,-170.5001 1428.7585,-163.5001"/>
+</g>
+<!-- CrcToptoolbarComponent -->
+<g id="node5" class="node">
+<title>CrcToptoolbarComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1940.7534,-122 1777.2466,-122 1777.2466,-86 1940.7534,-86 1940.7534,-122"/>
+<text text-anchor="middle" x="1859" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcToptoolbarComponent</text>
+</g>
+<!-- CrcToptoolbarComponent&#45;&gt;AppModule -->
+<g id="edge5" class="edge">
+<title>CrcToptoolbarComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1859,-122.0336C1859,-139.0597 1859,-162 1859,-162 1859,-162 1428.9312,-162 1428.9312,-162"/>
+<polygon fill="#000000" stroke="#000000" points="1428.9312,-158.5001 1418.9312,-162 1428.9311,-165.5001 1428.9312,-158.5001"/>
+</g>
+<!-- CrcLefttoolbarComponent -->
+<g id="node6" class="node">
+<title>CrcLefttoolbarComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1759.0197,-122 1594.9803,-122 1594.9803,-86 1759.0197,-86 1759.0197,-122"/>
+<text text-anchor="middle" x="1677" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcLefttoolbarComponent</text>
+</g>
+<!-- CrcLefttoolbarComponent&#45;&gt;AppModule -->
+<g id="edge6" class="edge">
+<title>CrcLefttoolbarComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1677,-122.2396C1677,-137.5706 1677,-157 1677,-157 1677,-157 1428.7137,-157 1428.7137,-157"/>
+<polygon fill="#000000" stroke="#000000" points="1428.7137,-153.5001 1418.7137,-157 1428.7137,-160.5001 1428.7137,-153.5001"/>
+</g>
+<!-- CrcGenericDialogComponent -->
+<g id="node7" class="node">
+<title>CrcGenericDialogComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1576.9482,-122 1393.0518,-122 1393.0518,-86 1576.9482,-86 1576.9482,-122"/>
+<text text-anchor="middle" x="1485" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcGenericDialogComponent</text>
+</g>
+<!-- CrcGenericDialogComponent&#45;&gt;AppModule -->
+<g id="edge7" class="edge">
+<title>CrcGenericDialogComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1405.9271,-122.1061C1405.9271,-122.1061 1405.9271,-140.991 1405.9271,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="1402.4271,-140.9909 1405.9271,-150.991 1409.4271,-140.991 1402.4271,-140.9909"/>
+</g>
+<!-- CrcCreateModelModalComponent -->
+<g id="node8" class="node">
+<title>CrcCreateModelModalComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1374.6755,-122 1163.3245,-122 1163.3245,-86 1374.6755,-86 1374.6755,-122"/>
+<text text-anchor="middle" x="1269" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcCreateModelModalComponent</text>
+</g>
+<!-- CrcCreateModelModalComponent&#45;&gt;AppModule -->
+<g id="edge8" class="edge">
+<title>CrcCreateModelModalComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1354.8798,-122.1061C1354.8798,-122.1061 1354.8798,-140.991 1354.8798,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="1351.3798,-140.9909 1354.8798,-150.991 1358.3798,-140.991 1351.3798,-140.9909"/>
+</g>
+<!-- CrcOpenModelModalComponent -->
+<g id="node9" class="node">
+<title>CrcOpenModelModalComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1145.465,-122 940.535,-122 940.535,-86 1145.465,-86 1145.465,-122"/>
+<text text-anchor="middle" x="1043" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcOpenModelModalComponent</text>
+</g>
+<!-- CrcOpenModelModalComponent&#45;&gt;AppModule -->
+<g id="edge9" class="edge">
+<title>CrcOpenModelModalComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M1043,-122.2396C1043,-137.5706 1043,-157 1043,-157 1043,-157 1325.0369,-157 1325.0369,-157"/>
+<polygon fill="#000000" stroke="#000000" points="1325.0369,-160.5001 1335.0369,-157 1325.0368,-153.5001 1325.0369,-160.5001"/>
+</g>
+<!-- CrcDeleteModalComponent -->
+<g id="node10" class="node">
+<title>CrcDeleteModalComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="922.126,-122 747.874,-122 747.874,-86 922.126,-86 922.126,-122"/>
+<text text-anchor="middle" x="835" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcDeleteModalComponent</text>
+</g>
+<!-- CrcDeleteModalComponent&#45;&gt;AppModule -->
+<g id="edge10" class="edge">
+<title>CrcDeleteModalComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M835,-122.0336C835,-139.0597 835,-162 835,-162 835,-162 1324.9212,-162 1324.9212,-162"/>
+<polygon fill="#000000" stroke="#000000" points="1324.9212,-165.5001 1334.9212,-162 1324.9211,-158.5001 1324.9212,-165.5001"/>
+</g>
+<!-- CrcDeleteModelModalComponent -->
+<g id="node11" class="node">
+<title>CrcDeleteModelModalComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="729.6755,-122 518.3245,-122 518.3245,-86 729.6755,-86 729.6755,-122"/>
+<text text-anchor="middle" x="624" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CrcDeleteModelModalComponent</text>
+</g>
+<!-- CrcDeleteModelModalComponent&#45;&gt;AppModule -->
+<g id="edge11" class="edge">
+<title>CrcDeleteModelModalComponent&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M624,-122.2222C624,-140.8285 624,-167 624,-167 624,-167 1325.1728,-167 1325.1728,-167"/>
+<polygon fill="#000000" stroke="#000000" points="1325.1728,-170.5001 1335.1728,-167 1325.1728,-163.5001 1325.1728,-170.5001"/>
+</g>
+<!-- AppComponent  -->
+<g id="node13" class="node">
+<title>AppComponent </title>
+<polygon fill="#80b1d3" stroke="#000000" points="1431.439,-252 1322.561,-252 1322.561,-216 1431.439,-216 1431.439,-252"/>
+<text text-anchor="middle" x="1377" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">AppComponent </text>
+</g>
+<!-- AppModule&#45;&gt;AppComponent  -->
+<g id="edge12" class="edge">
+<title>AppModule&#45;&gt;AppComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1377,-187.1061C1377,-187.1061 1377,-205.991 1377,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="1373.5001,-205.9909 1377,-215.991 1380.5001,-205.991 1373.5001,-205.9909"/>
+</g>
+<!-- CardService -->
+<g id="node14" class="node">
+<title>CardService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="435" cy="-104" rx="58.5251" ry="18"/>
+<text text-anchor="middle" x="435" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">CardService</text>
+</g>
+<!-- CardService&#45;&gt;AppModule -->
+<g id="edge13" class="edge">
+<title>CardService&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M435,-122.2228C435,-142.3652 435,-172 435,-172 435,-172 1325.308,-172 1325.308,-172"/>
+<polygon fill="#000000" stroke="#000000" points="1325.308,-175.5001 1335.308,-172 1325.3079,-168.5001 1325.308,-175.5001"/>
+</g>
+<!-- LocalStorageService -->
+<g id="node15" class="node">
+<title>LocalStorageService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="267" cy="-104" rx="91.4481" ry="18"/>
+<text text-anchor="middle" x="267" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">LocalStorageService</text>
+</g>
+<!-- LocalStorageService&#45;&gt;AppModule -->
+<g id="edge14" class="edge">
+<title>LocalStorageService&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M267,-122.0449C267,-143.6623 267,-177 267,-177 267,-177 1325.1779,-177 1325.1779,-177"/>
+<polygon fill="#000000" stroke="#000000" points="1325.178,-180.5001 1335.1779,-177 1325.1779,-173.5001 1325.178,-180.5001"/>
+</g>
+<!-- ConfigService -->
+<g id="node16" class="node">
+<title>ConfigService</title>
+<ellipse fill="#fdb462" stroke="#000000" cx="91" cy="-104" rx="66.6325" ry="18"/>
+<text text-anchor="middle" x="91" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ConfigService</text>
+</g>
+<!-- ConfigService&#45;&gt;AppModule -->
+<g id="edge15" class="edge">
+<title>ConfigService&#45;&gt;AppModule</title>
+<path fill="none" stroke="#000000" d="M91,-122.0908C91,-145.1328 91,-182 91,-182 91,-182 1325.307,-182 1325.307,-182"/>
+<polygon fill="#000000" stroke="#000000" points="1325.3071,-185.5001 1335.307,-182 1325.307,-178.5001 1325.3071,-185.5001"/>
+</g>
+</g>
+</svg>
+
+          </div>
+          <i id="fullscreen" class="fa fa-expand module-graph-fullscreen-btn" aria-hidden="true"></i>
+          <div class="btn-group">
+              <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+              <button id="reset" class="btn btn-default btn-sm">Reset</button>
+              <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+          </div>
+      </div>
+      <script src="../js/libs/svg-pan-zoom.min.js"></script>
+      <script src="../js/svg-pan-zoom.controls.js"></script>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/app.module.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Description</h3>
+            </p>
+            <p class="comment">
+                <p>The application module. CUSTOM_ELEMENTS_SCHEMA schema was added as there
+were SVG tags.ReactiveFormsModule is imported. Three services were defined:
+ConfigService which basically holds static properties which are needed throughout the app
+maybe replaced later to allow dynamic configurable properties.
+LocalStorageService is a wrapper around the localstorage object and is injected in the CardService.
+The CardService manages the cards and models and is injected in many components.
+The CardService has observables to allow loose coupling between components but still pass
+information around.</p>
+
+            </p>
+
+        <div class="container-fluid module">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Declarations<a href="https://angular.io/api/core/NgModule#declarations" target="_blank" title="Official documentation about module declarations"><span class="fa fa-info-circle"></span></a></h3>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="../components/AppComponent.html">AppComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcViewContainerComponent.html">CrcViewContainerComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcEditModalComponent.html">CrcEditModalComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcSvgComponent.html">CrcSvgComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcToptoolbarComponent.html">CrcToptoolbarComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcLefttoolbarComponent.html">CrcLefttoolbarComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcGenericDialogComponent.html">CrcGenericDialogComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcCreateModelModalComponent.html">CrcCreateModelModalComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcOpenModelModalComponent.html">CrcOpenModelModalComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcDeleteModalComponent.html">CrcDeleteModalComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/CrcDeleteModelModalComponent.html">CrcDeleteModelModalComponent</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Providers<a href="https://angular.io/api/core/NgModule#providers" target="_blank" title="Official documentation about module providers"><span class="fa fa-info-circle"></a></h3>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                     <a href="../injectables/CardService.html" >CardService</a>
+                            </li>
+                            <li class="list-group-item">
+                                     <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                            </li>
+                            <li class="list-group-item">
+                                     <a href="../injectables/ConfigService.html" >ConfigService</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Bootstrap<a href="https://angular.io/api/core/NgModule#bootstrap" target="_blank" title="Official documentation about module bootstrap"><span class="fa fa-info-circle"></a></h3>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="../components/AppComponent.html" >AppComponent</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { BrowserModule } from &#x27;@angular/platform-browser&#x27;;
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from &#x27;@angular/core&#x27;;
+
+import { AppComponent } from &#x27;./app.component&#x27;;
+import { CrcViewContainerComponent } from &#x27;./components/crc-view-container/crc-view-container.component&#x27;;
+import { CrcEditModalComponent } from &#x27;./components/dialogs/crc-edit-modal/crc-edit-modal.component&#x27;;
+import { CardService } from &#x27;./shared/card.service&#x27;;
+import { LocalStorageService } from &#x27;./shared/local-storage.service&#x27;;
+import { ConfigService } from &#x27;./shared/config.service&#x27;;
+import { CrcSvgComponent } from &#x27;./components/crc-svg/crc-svg.component&#x27;;
+import { ReactiveFormsModule } from &#x27;@angular/forms&#x27;;
+import { CrcToptoolbarComponent } from &#x27;./components/crc-toptoolbar/crc-toptoolbar.component&#x27;;
+import { CrcLefttoolbarComponent } from &#x27;./components/crc-lefttoolbar/crc-lefttoolbar.component&#x27;;
+import { CrcGenericDialogComponent } from &#x27;./components/dialogs/crc-generic-dialog/crc-generic-dialog.component&#x27;;
+import { CrcCreateModelModalComponent } from &#x27;./components/dialogs/crc-create-model-modal/crc-create-model-modal.component&#x27;;
+import { CrcOpenModelModalComponent } from &#x27;./components/dialogs/crc-open-model-modal/crc-open-model-modal.component&#x27;;
+import { CrcDeleteModalComponent } from &#x27;./components/dialogs/crc-delete-modal/crc-delete-modal.component&#x27;;
+import { CrcDeleteModelModalComponent } from &#x27;./components/dialogs/crc-delete-model-modal/crc-delete-model-modal.component&#x27;;
+
+
+
+/**
+* The application module. CUSTOM_ELEMENTS_SCHEMA schema was added as there
+* were SVG tags.ReactiveFormsModule is imported. Three services were defined:
+* ConfigService which basically holds static properties which are needed throughout the app
+* maybe replaced later to allow dynamic configurable properties.
+* LocalStorageService is a wrapper around the localstorage object and is injected in the CardService.
+* The CardService manages the cards and models and is injected in many components.
+* The CardService has observables to allow loose coupling between components but still pass
+* information around.
+**/
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    CrcViewContainerComponent,
+    CrcEditModalComponent,
+    CrcSvgComponent,
+    CrcToptoolbarComponent,
+    CrcLefttoolbarComponent,
+    CrcGenericDialogComponent,
+    CrcCreateModelModalComponent,
+    CrcOpenModelModalComponent,
+    CrcDeleteModalComponent,
+    CrcDeleteModelModalComponent
+  ],
+  imports: [
+    BrowserModule, ReactiveFormsModule
+  ],
+  providers: [CardService, LocalStorageService, ConfigService],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+})
+export class AppModule {
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

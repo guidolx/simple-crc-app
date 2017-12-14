@@ -1,0 +1,1998 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>simple-crc-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">simple-crc-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">simple-crc-app documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCItem.html" >CRCItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCModel.html" >CRCModel</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/CardService.html"  data-type="entity-link" class="active" >CardService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/Button.html" >Button</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">simple-crc-app documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcToptoolbarComponent.html" >CrcToptoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCItem.html" >CRCItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCModel.html" >CRCModel</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/CardService.html"  data-type="entity-link" class="active" >CardService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/Button.html" >Button</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li>CardService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/shared/card.service.ts</code>
+        </p>
+
+
+
+            <section>
+                <h3 id="index">Index</h3>
+                <table class="table table-sm table-bordered index-table">
+                    <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Properties</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#_crcModel">_crcModel</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#_data">_data</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Methods</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#add">add</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Private</span>
+                                        <a href="#createMissingCards">createMissingCards</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#createModel">createModel</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#deleteCrcCard">deleteCrcCard</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#deleteCrcModel">deleteCrcModel</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#getCurrentModel">getCurrentModel</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#getCurrentModelAsJSON">getCurrentModelAsJSON</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#getCurrentModelTitle">getCurrentModelTitle</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#getModels">getModels</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#getObservableItems">getObservableItems</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#isNameAvailable">isNameAvailable</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#loadFromString">loadFromString</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#loadModel">loadModel</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#save">save</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#saveCurrentModel">saveCurrentModel</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#size">size</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#update">update</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Accessors</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#crcItems">crcItems</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 id="constructor">Constructor</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <code>constructor(storage: <a href="../injectables/LocalStorageService.html">LocalStorageService</a>, configService: <a href="../injectables/ConfigService.html">ConfigService</a>)</code>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/shared/card.service.ts:14</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div>
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>storage</td>
+                                                              <td>
+                                                                        <code><a href="../injectables/LocalStorageService.html" target="_self" >LocalStorageService</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>configService</td>
+                                                              <td>
+                                                                        <code><a href="../injectables/ConfigService.html" target="_self" >ConfigService</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="methods">
+                        Methods
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="add"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        add
+                                        </b>
+                                        <a href="#add"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>add(crcItem: <a href="../classes/CRCItem.html">CRCItem</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/shared/card.service.ts:26</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>crcItem</td>
+                                                              <td>
+                                                                      <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="createMissingCards"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        createMissingCards
+                                        </b>
+                                        <a href="#createMissingCards"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>createMissingCards(items: Array<string>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="103" class="link-to-prism">src/app/shared/card.service.ts:103</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>items</td>
+                                                              <td>
+                                                                      <code>Array&lt;string&gt;</code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="createModel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        createModel
+                                        </b>
+                                        <a href="#createModel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>createModel(crcModel: <a href="../classes/CRCModel.html">CRCModel</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/shared/card.service.ts:50</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>crcModel</td>
+                                                              <td>
+                                                                      <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="deleteCrcCard"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        deleteCrcCard
+                                        </b>
+                                        <a href="#deleteCrcCard"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>deleteCrcCard(item: <a href="../classes/CRCItem.html">CRCItem</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">src/app/shared/card.service.ts:71</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>item</td>
+                                                              <td>
+                                                                      <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="deleteCrcModel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        deleteCrcModel
+                                        </b>
+                                        <a href="#deleteCrcModel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>deleteCrcModel(model: <a href="../classes/CRCModel.html">CRCModel</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="89" class="link-to-prism">src/app/shared/card.service.ts:89</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>model</td>
+                                                              <td>
+                                                                      <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="getCurrentModel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        getCurrentModel
+                                        </b>
+                                        <a href="#getCurrentModel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>getCurrentModel()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="157" class="link-to-prism">src/app/shared/card.service.ts:157</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="getCurrentModelAsJSON"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        getCurrentModelAsJSON
+                                        </b>
+                                        <a href="#getCurrentModelAsJSON"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>getCurrentModelAsJSON()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="146" class="link-to-prism">src/app/shared/card.service.ts:146</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="getCurrentModelTitle"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        getCurrentModelTitle
+                                        </b>
+                                        <a href="#getCurrentModelTitle"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>getCurrentModelTitle()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="150" class="link-to-prism">src/app/shared/card.service.ts:150</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="getModels"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        getModels
+                                        </b>
+                                        <a href="#getModels"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>getModels()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/shared/card.service.ts:62</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/CRCModel.html" target="_self" >Array&lt;CRCModel&gt;</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="getObservableItems"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        getObservableItems
+                                        </b>
+                                        <a href="#getObservableItems"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>getObservableItems()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/shared/card.service.ts:18</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="isNameAvailable"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        isNameAvailable
+                                        </b>
+                                        <a href="#isNameAvailable"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>isNameAvailable(name: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="131" class="link-to-prism">src/app/shared/card.service.ts:131</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>name</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="loadFromString"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        loadFromString
+                                        </b>
+                                        <a href="#loadFromString"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>loadFromString(data: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="162" class="link-to-prism">src/app/shared/card.service.ts:162</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>data</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="loadModel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        loadModel
+                                        </b>
+                                        <a href="#loadModel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>loadModel(uuid: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/shared/card.service.ts:66</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>uuid</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="save"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        save
+                                        </b>
+                                        <a href="#save"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>save(item: <a href="../classes/CRCItem.html">CRCItem</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/shared/card.service.ts:35</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>item</td>
+                                                              <td>
+                                                                      <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="saveCurrentModel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        saveCurrentModel
+                                        </b>
+                                        <a href="#saveCurrentModel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>saveCurrentModel()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/shared/card.service.ts:58</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="size"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        size
+                                        </b>
+                                        <a href="#size"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>size(width: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, height: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/shared/card.service.ts:43</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>width</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>height</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="update"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        update
+                                        </b>
+                                        <a href="#update"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>update(crcItem: <a href="../classes/CRCItem.html">CRCItem</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/shared/card.service.ts:31</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>crcItem</td>
+                                                              <td>
+                                                                      <code><a href="../classes/CRCItem.html" target="_self" >CRCItem</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="inputs">
+                        Properties
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="_crcModel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        _crcModel
+                                        </b>
+                                        <a href="#_crcModel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>_crcModel:     <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Type : </i>    <code><a href="../classes/CRCModel.html" target="_self" >CRCModel</a></code>
+            
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>new CRCModel()</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/shared/card.service.ts:12</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="_data"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Private</span>
+                                        _data
+                                        </b>
+                                        <a href="#_data"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>_data:     <code><a href="../classes/CRCModel.html" target="_self" >BehaviorSubject&lt;CRCModel&gt;</a></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Type : </i>    <code><a href="../classes/CRCModel.html" target="_self" >BehaviorSubject&lt;CRCModel&gt;</a></code>
+            
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Default value : </i><code>new BehaviorSubject(this._crcModel)</code>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/shared/card.service.ts:14</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                <h3 id="accessors">
+                    Accessors
+                </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="crcItems"></a>
+                                    <span class="name"><b>crcItems</b><a href="#crcItems"><span class="fa fa-link"></span></a></span>
+                                </td>
+                            </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="accessor"><b>get</b><code>crcItems()</code></span>
+                                </td>
+                            </tr>
+                                        <tr>
+                                            <td class="col-md-4">
+                                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/shared/card.service.ts:22</a></div>
+                                            </td>
+                                        </tr>
+            
+                        </tbody>
+                    </table>
+            </section>
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Injectable } from &#x27;@angular/core&#x27;;
+import { CRCItem } from &#x27;../model/crcitem&#x27;;
+import { CRCModel } from &#x27;../model/crcmodel&#x27;;
+import { LocalStorageService } from &#x27;./local-storage.service&#x27;;
+import { ConfigService } from &#x27;./config.service&#x27;;
+import { UUID } from &#x27;angular2-uuid&#x27;;
+import { BehaviorSubject } from &#x27;rxjs/BehaviorSubject&#x27;;
+
+@Injectable()
+export class CardService {
+
+  private _crcModel: CRCModel &#x3D; new CRCModel();
+
+  private _data: BehaviorSubject&lt;CRCModel&gt; &#x3D; new BehaviorSubject(this._crcModel);
+
+  constructor(private storage: LocalStorageService,private configService:ConfigService) {}
+
+  public getObservableItems() {
+    return this._data.asObservable();
+  }
+
+  public get crcItems() {
+    return this._crcModel.items;
+  }
+
+  public add(crcItem: CRCItem): void {
+    this._crcModel.add(crcItem);
+    this._data.next(this._crcModel);
+  }
+
+  public update(crcItem: CRCItem): void {
+    this._crcModel.update(crcItem);
+  }
+
+  public save(item: CRCItem) {
+    if (item.uuid &#x3D;&#x3D;&#x3D; undefined) {
+      item.initUuid();
+      this._crcModel.add(item);
+    }
+    this.createMissingCards(item.collaborators);
+  }
+
+  public size(width: number, height: number): void {
+    this._crcModel.width &#x3D; width;
+    this._crcModel.height &#x3D; height;
+    this._data.next(this._crcModel);
+  }
+
+
+  public createModel(crcModel: CRCModel): void {
+    this._crcModel &#x3D; crcModel;
+    this._crcModel.width &#x3D; 800;
+    this._crcModel.height &#x3D; 600;
+    this.storage.save(this._crcModel);
+    this._data.next(this._crcModel);
+  }
+
+  public saveCurrentModel(): void {
+    this.storage.save(this._crcModel);
+  }
+
+  public getModels(): Array&lt;CRCModel&gt; {
+    return this.storage.getAllModels();
+  }
+
+  public loadModel(uuid: string) {
+    this._crcModel &#x3D; this.storage.load(uuid);
+    this._data.next(this._crcModel);
+  }
+
+  public deleteCrcCard(item: CRCItem): void {
+    const name &#x3D; item.name;
+
+    this._crcModel.items &#x3D; this._crcModel.items.filter((i) &#x3D;&gt; {
+      return i.uuid !&#x3D; item.uuid;
+    });
+
+    this._crcModel.items.forEach(it &#x3D;&gt; {
+      if (it.collaborators !&#x3D; null &amp;&amp; it.collaborators.indexOf(name) &gt; -1) {
+        it.collaborators &#x3D; it.collaborators.filter((f) &#x3D;&gt; {
+
+          return f !&#x3D; name;
+        });
+      }
+    });
+    this._data.next(this._crcModel);
+  }
+
+  public deleteCrcModel(model:CRCModel){
+    if(model !&#x3D; null &amp;&amp; model.uuid !&#x3D; null){
+      this.storage.delete(model);
+    }
+    this._crcModel &#x3D; new CRCModel();
+    this._crcModel.title &#x3D; this.configService.defaultModelTitle;
+    this._crcModel.width &#x3D; this.configService.defaultModelWidth;
+    this._crcModel.height &#x3D; this.configService.defaultModelHeight;
+    this._data.next(this._crcModel);
+  }
+
+
+
+
+  private createMissingCards(items: Array&lt;string&gt;){
+    if(items &#x3D;&#x3D; null || items.length &#x3D;&#x3D; 0){
+      return;
+    }
+    let result: Array&lt;string&gt; &#x3D; items.slice();
+    this._crcModel.items.forEach((item) &#x3D;&gt; {
+      const i &#x3D; result.indexOf(item.name);
+      if (i &gt; -1) {
+        result.splice(i, 1);
+      }
+    });
+    if(result.length &gt; 0){
+      let x &#x3D; 340;
+      let y &#x3D; 20;
+      const increaseY &#x3D; Math.min((this._crcModel.height - 20 / result.length),60);
+      result.forEach((item) &#x3D;&gt; {
+        let i &#x3D; new CRCItem(item);
+        i.initUuid();
+        i.posX &#x3D; x;
+        i.posY &#x3D; y;
+        this._crcModel.add(i);
+        y+&#x3D; increaseY;
+      });
+      this._data.next(this._crcModel);
+    }
+  }
+
+
+  public isNameAvailable(name:string):boolean{
+    let available:boolean &#x3D; true;
+    if(this._crcModel.items.length &#x3D;&#x3D; 0){
+      return available;
+    }
+
+    for(let i &#x3D; 0; i &lt; this._crcModel.items.length;i++){
+      if(this._crcModel.items[i].name &#x3D;&#x3D; name){
+        available &#x3D; false;
+        break;
+      }
+    }
+    return available;
+  }
+
+  public getCurrentModelAsJSON():string{
+    return JSON.stringify(this._crcModel);
+  }
+
+  public getCurrentModelTitle(){
+    if(this._crcModel.title &#x3D;&#x3D; null){
+      return &#x27;Download&#x27;;
+    }
+    return this._crcModel.title.replace(/(?!\.[^.]+$)\.|[^\w.]+/g, &#x27;&#x27;);
+  }
+
+  public getCurrentModel():CRCModel{
+    return this._crcModel;
+  }
+
+
+  public loadFromString(data:string):void{
+    this._crcModel &#x3D;  this.storage.saveJson(data);
+    this._data.next(this._crcModel);
+  }
+
+
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

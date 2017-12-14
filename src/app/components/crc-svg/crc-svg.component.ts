@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, ElementRef, Output, EventEmitter } from '@angular/core';
 import { CRCItem } from "../../model/crcitem";
-import { ActionEvent } from "../../model/actionevent";
+import { ActionEvent } from "../../shared/helpers/action-event";
 import { ConfigService } from '../../shared/config.service';
 
 @Component({
@@ -9,14 +9,6 @@ import { ConfigService } from '../../shared/config.service';
   styleUrls: ['./crc-svg.component.css']
 })
 export class CrcSvgComponent implements OnInit {
-
-  // Need to compute the x and y coordinates of the title
-  // Then for each responbility in the item, I need to compute
-  // the x, y position as well as if it spans multiple lines.
-
-  // Same for the collaborators.
-
-  private static cv: any;
 
   private _currentRX: number = 0;
   private _currentRY: number = 0;

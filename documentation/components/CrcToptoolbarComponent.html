@@ -1,0 +1,1372 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>simple-crc-app documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">simple-crc-app documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">simple-crc-app documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcToptoolbarComponent.html"  data-type="entity-link" class="active" >CrcToptoolbarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/AppPage.html" >AppPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCItem.html" >CRCItem</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/CRCModel.html" >CRCModel</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/CardService.html" >CardService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/Button.html" >Button</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">simple-crc-app documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcCreateModelModalComponent.html" >CrcCreateModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModalComponent.html" >CrcDeleteModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcDeleteModelModalComponent.html" >CrcDeleteModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcEditModalComponent.html" >CrcEditModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcGenericDialogComponent.html" >CrcGenericDialogComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcLefttoolbarComponent.html" >CrcLefttoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcOpenModelModalComponent.html" >CrcOpenModelModalComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcSvgComponent.html" >CrcSvgComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcToptoolbarComponent.html"  data-type="entity-link" class="active" >CrcToptoolbarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/CrcViewContainerComponent.html" >CrcViewContainerComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ActionEvent.html" >ActionEvent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/AppPage.html" >AppPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/BaseDialog.html" >BaseDialog</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCItem.html" >CRCItem</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/CRCModel.html" >CRCModel</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/CardService.html" >CardService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/ConfigService.html" >ConfigService</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../injectables/LocalStorageService.html" >LocalStorageService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/Button.html" >Button</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>CrcToptoolbarComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>crc-toptoolbar</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>crc-toptoolbar.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./crc-toptoolbar.component.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="index">Index</h3>
+        <table class="table table-sm table-bordered index-table">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_crcProperties">_crcProperties</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_propagateSizeEvent">_propagateSizeEvent</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_selectedSize">_selectedSize</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_sizes">_sizes</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#addCard">addCard</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#changeSize">changeSize</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#updateSize">updateSize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#createCard">createCard</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Accessors</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#sizes">sizes</a>
+                            </li>
+                            <li>
+                                <a href="#selectedSize">selectedSize</a>
+                            </li>
+                            <li>
+                                <a href="#crcProperties">crcProperties</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor(cardService: <a href="../injectables/CardService.html">CardService</a>, configService: <a href="../injectables/ConfigService.html">ConfigService</a>)</code>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:23</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div>
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>cardService</td>
+                                                      <td>
+                                                                <code><a href="../injectables/CardService.html" target="_self" >CardService</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>configService</td>
+                                                      <td>
+                                                                <code><a href="../injectables/ConfigService.html" target="_self" >ConfigService</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+    <section>
+        <h3 id="outputs">Outputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <a name="createCard"></a>
+                            <code>createCard</code>
+                        </td>
+                        <td class="col-md-10">
+                            <em><code>$event</code> type:</em>    <code>EventEmitter&lt;string&gt;</code>
+
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:15</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="addCard"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                addCard
+                                </b>
+                                <a href="#addCard"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>addCard()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:46</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="changeSize"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                changeSize
+                                </b>
+                                <a href="#changeSize"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>changeSize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="62" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:62</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>event</td>
+                                                      <td>
+                                                              <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="ngOnInit"></a>
+                            <span class="name">
+                                <b>
+                                ngOnInit
+                                </b>
+                                <a href="#ngOnInit"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>ngOnInit()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:30</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="updateSize"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Public</span>
+                                updateSize
+                                </b>
+                                <a href="#updateSize"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon fa fa-reset"></span>
+                            <code>updateSize(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:51</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                      <td>event</td>
+                                                      <td>
+                                                              <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                      </td>
+                                                      <td>
+                                                      </td>
+                                                      <td></td>
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+    
+                                </div>
+                                    <div class="io-description">
+                                        
+                                    </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_crcProperties"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _crcProperties
+                                </b>
+                                <a href="#_crcProperties"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_crcProperties:     <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:23</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_propagateSizeEvent"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _propagateSizeEvent
+                                </b>
+                                <a href="#_propagateSizeEvent"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_propagateSizeEvent:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:21</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_selectedSize"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _selectedSize
+                                </b>
+                                <a href="#_selectedSize"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_selectedSize:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:19</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="_sizes"></a>
+                            <span class="name">
+                                <b>
+                                    <span class="modifier">Private</span>
+                                _sizes
+                                </b>
+                                <a href="#_sizes"><span class="fa fa-link"></span></a>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span><code>_sizes:     <code>Array&lt;string&gt;</code>
+    </code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code>Array&lt;string&gt;</code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:17</a></div>
+                                </td>
+                            </tr>
+    
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="accessors">
+            Accessors
+        </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="sizes"></a>
+                            <span class="name"><b>sizes</b><a href="#sizes"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>sizes()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="69" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:69</a></div>
+                                    </td>
+                                </tr>
+    
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="selectedSize"></a>
+                            <span class="name"><b>selectedSize</b><a href="#selectedSize"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>selectedSize()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:73</a></div>
+                                    </td>
+                                </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>selectedSize(size: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="77" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:77</a></div>
+                                    </td>
+                                </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <a name="crcProperties"></a>
+                            <span class="name"><b>crcProperties</b><a href="#crcProperties"><span class="fa fa-link"></span></a></span>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>get</b><code>crcProperties()</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="84" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:84</a></div>
+                                    </td>
+                                </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="accessor"><b>set</b><code>crcProperties(form: )</code></span>
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="88" class="link-to-prism">src/app/components/crc-toptoolbar/crc-toptoolbar.component.ts:88</a></div>
+                                    </td>
+                                </tr>
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Component, OnInit, EventEmitter, Output } from &#x27;@angular/core&#x27;;
+import { FormGroup, FormControl } from &#x27;@angular/forms&#x27;;
+import { CardService } from &#x27;../../shared/card.service&#x27;;
+import { ConfigService } from &#x27;../../shared/config.service&#x27;;
+import { CRCItem } from &#x27;../../model/crcitem&#x27;;
+
+
+@Component({
+  selector: &#x27;crc-toptoolbar&#x27;,
+  templateUrl: &#x27;./crc-toptoolbar.component.html&#x27;,
+  styleUrls: [&#x27;./crc-toptoolbar.component.css&#x27;]
+})
+export class CrcToptoolbarComponent implements OnInit {
+  @Output()
+  createCard: EventEmitter&lt;string&gt; &#x3D; new EventEmitter&lt;string&gt;();
+
+  private _sizes: Array&lt;string&gt;;
+
+  private _selectedSize: string;
+
+  private _propagateSizeEvent: boolean;
+
+  private _crcProperties:FormGroup;
+
+  constructor(private cardService: CardService, private configService:ConfigService) {
+    this._sizes &#x3D; configService.modelSizes;
+    this._selectedSize &#x3D; this._sizes[0];
+  }
+
+  ngOnInit() {
+    this.cardService.getObservableItems().subscribe(
+      (model) &#x3D;&gt; {
+        const size: string &#x3D; &#x60;${model.width} x ${model.height}&#x60;;
+        this._propagateSizeEvent &#x3D; this._selectedSize !&#x3D;&#x3D; size;
+
+        this.updateSize(size);
+      }
+    );
+
+    this._crcProperties &#x3D; new FormGroup({
+      selectedSize:new FormControl(&#x27;&#x27;)
+    });
+
+  }
+
+  public addCard(): void {
+    this.createCard.emit(&#x27;createCard&#x27;);
+  }
+
+
+  public updateSize(event: any) {
+    this.selectedSize &#x3D; event;
+    const values &#x3D; this._selectedSize.split(&quot;x&quot;);
+    let width: number &#x3D; parseInt(values[0].trim());
+    let height: number &#x3D; parseInt(values[1].trim());
+
+    if (this._propagateSizeEvent) {
+      this.cardService.size(width, height);
+    }
+  }
+
+  public changeSize(event: any): void {
+
+    this._propagateSizeEvent &#x3D; this._selectedSize !&#x3D;&#x3D; event;
+    //this.selectedSize &#x3D; event;
+    this.updateSize(event);
+  }
+
+  public get sizes() {
+    return this._sizes;
+  }
+
+  public get selectedSize() {
+    return this._selectedSize;
+  }
+
+  public set selectedSize(size: string) {
+    const index &#x3D; this._sizes.indexOf(size);
+    if (index &gt; -1) {
+      this._selectedSize &#x3D; this._sizes[index];
+    }
+  }
+
+  public get crcProperties(){
+    return this._crcProperties;
+  }
+
+  public set crcProperties(form:FormGroup){
+    this._crcProperties &#x3D; form;
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;vr_header&quot;&gt;
+    &lt;div class&#x3D;&quot;item&quot;&gt;
+      &lt;button class&#x3D;&quot;button is-link&quot; (click)&#x3D;&quot;addCard()&quot;&gt;NEW CRC CARD&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;item&quot;&gt;
+      &lt;form [formGroup]&#x3D;&#x27;crcProperties&#x27;&gt;
+        &lt;div class&#x3D;&quot;field&quot;&gt;
+          &lt;div class&#x3D;&quot;control&quot;&gt;
+            &lt;div class&#x3D;&quot;select&quot;&gt;
+              &lt;select formControlName&#x3D;&#x27;selectedSize&#x27; [value]&#x3D;&#x27;selectedSize&#x27; (change)&#x3D;&quot;changeSize($event.target.value)&quot;&gt;
+              &lt;option [value]&#x3D;i *ngFor&#x3D;&quot;let i of sizes&quot;&gt;
+                {{i}}
+              &lt;/option&gt;
+            &lt;/select&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="vr_header">    <div class="item">      <button class="button is-link" (click)="addCard()">NEW CRC CARD</button>    </div>    <div class="item">      <form [formGroup]=\'crcProperties\'>        <div class="field">          <div class="control">            <div class="select">              <select formControlName=\'selectedSize\' [value]=\'selectedSize\' (change)="changeSize($event.target.value)">              <option [value]=i *ngFor="let i of sizes">                {{i}}              </option>            </select>            </div>          </div>        </div>      </form>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CrcCreateModelModalComponent', 'selector': 'crc-create-model-modal'},{'name': 'CrcDeleteModalComponent', 'selector': 'crc-delete-modal'},{'name': 'CrcDeleteModelModalComponent', 'selector': 'crc-delete-model-modal'},{'name': 'CrcEditModalComponent', 'selector': 'crc-edit-modal'},{'name': 'CrcGenericDialogComponent', 'selector': 'crc-generic-dialog'},{'name': 'CrcLefttoolbarComponent', 'selector': 'crc-lefttoolbar'},{'name': 'CrcOpenModelModalComponent', 'selector': 'crc-open-model-modal'},{'name': 'CrcSvgComponent', 'selector': '[crc-svg]'},{'name': 'CrcToptoolbarComponent', 'selector': 'crc-toptoolbar'},{'name': 'CrcViewContainerComponent', 'selector': 'crc-view-container'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'CrcToptoolbarComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

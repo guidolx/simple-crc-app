@@ -1,5 +1,5 @@
 import { UUID } from 'angular2-uuid';
-
+/** Represents a card in a CRC Model **/
 export class CRCItem {
 
   public static CONTROLLER:string = 'controller';
