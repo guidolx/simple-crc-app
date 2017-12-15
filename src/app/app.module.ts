@@ -29,7 +29,7 @@ import { CrcDeleteModelModalComponent } from './components/dialogs/crc-delete-mo
 * The CardService has observables to allow loose coupling between components but still pass
 * information around.
 **/
-
+ 
 @NgModule({
   declarations: [
     AppComponent,

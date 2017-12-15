@@ -74,6 +74,10 @@ export class CrcSvgComponent implements OnInit {
     return `${this.item.name}`;
   }
 
+  public get id(){
+    return `${this.item.uuid}`;
+  }
+
   public get height(){
     return this._height;
   }
@@ -125,11 +129,11 @@ export class CrcSvgComponent implements OnInit {
     this.actionEvent.emit(a);
   }
 
-  private get responsibilitiesTspan():Array<any> {
+  public get responsibilitiesTspan():Array<any> {
     return this.makeTspans(this.item.responsibilities,this.configService.xOffsetCompartmentLeft);
   }
 
-  private get collaboratorsTspan():Array<any> {
+  public get collaboratorsTspan():Array<any> {
     return this.makeTspans(this.item.collaborators,this.configService.xOffsetCompartmentRight);
   }
 
