@@ -19,7 +19,7 @@ export function ValidateCollaborators(cardName: string): ValidatorFn {
     let current;
     for (let i = 0; i < cs.length; i++) {
       current = cs[i].trim();
-      if (current.length > 24) {
+      if (current.length > 32) {
         return { errorMessage: `Name is too long ${current}` };
       } else if (current === cardName) {
         return { errorMessage: `Collaborator can't have the same name as the card ${current}` };

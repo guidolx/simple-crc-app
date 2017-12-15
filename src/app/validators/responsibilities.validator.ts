@@ -15,7 +15,7 @@ export function ValidateResponsibilities(control: AbstractControl) {
     return {errorMessage:'Too many responsibilites defined(maximum is 10)'};
   }
   for(let i = 0; i < cs.length;i++){
-    if(cs[i].length > 48){
+    if(cs[i].length > 64){
       return {errorMessage:`Responsibility is too long ${cs[i]}`};
     }
   }
